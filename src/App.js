@@ -1,24 +1,26 @@
+/**
+ * Copyright (c)
+ * All rights reserved. developer.martinhwang@gmail.com
+ *
+ * Filename: App.js
+ *
+ * Key Options:
+ * 
+ *
+ * Revision History:
+ * - 18 Oct 2020, Martin Hwang <developer.martinhwang@gmail.com> : Created
+ */
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-
+// components
+import Students from './components/Students'
+//material-ui core
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="App-header">
+        <Students/>
+      </div>
     </div>
   );
 }

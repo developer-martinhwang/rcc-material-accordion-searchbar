@@ -1,3 +1,9 @@
+## React Class Components
+
+Display student list in accordion and search info 
+
+Accordion of material ui is used
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
